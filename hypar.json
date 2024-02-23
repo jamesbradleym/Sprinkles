@@ -1,0 +1,27 @@
+{
+  "$schema": "https://hypar.io/Schemas/Function.json",
+  "id": "02b8ba96-cd47-4fb0-8426-3857808d253d",
+  "name": "Sprinkles",
+  "description": "The Sprinkles function.",
+  "language": "C#",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "Seed": {
+        "type": "number",
+        "minimum": 1,
+        "maximum": 100,
+        "multipleOf": 1.0,
+        "default": 21
+      }
+    }
+  },
+  "outputs": [],
+  "element_types": [
+    "http://prod-api.hypar.io/schemas/SVGGraphic",
+    "http://prod-api.hypar.io/schemas/SpaceBoundary"
+  ],
+  "repository_url": "https://github.com/hypar-io/function",
+  "last_updated": "0001-01-01T00:00:00",
+  "cli_version": "1.11.0-alpha.18"
+}
